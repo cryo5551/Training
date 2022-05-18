@@ -1,0 +1,132 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Noto+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: #EAEAEA !important;
+}
+
+.nevbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #b1040e;
+    justify-content:space-between;
+    position: sticky;
+    top: 0px;
+}
+
+.img{
+    width: 38px;
+}
+
+
+.fa-solid {
+    color: #ffffff;
+}
+
+
+.nevigation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+
+.nev{
+    color: #ffffff;
+    margin: 10px;
+    /* padding: 5px; */
+    font-size: 18px;
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bar{  
+    margin-right: 10px;
+}
+
+.quote{
+    font-size: 35px;
+    font-family: 'Baloo 2';
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-family: 'Noto Sans', sans-serif;
+}
+.fa-brands{
+    font-size: 25px;
+    margin: 3px;
+}
+.places img {
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    /* background-color: red; */
+}
+
+.places{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    width:  440px;
+    padding: 15px;
+    margin: 15px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #be8b6b;
+    color: white;
+    justify-content:space-between;
+    text-align: center;
+    align-items:center;
+    font-family: 'Noto Sans', sans-serif;
+    /* position: sticky;
+    bottom: 0px; */
+}
+
+.foot{
+    padding: 1px;
+}
+
+.author {
+    font-size: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 90px;
+}
+
+.cpyrght{
+    padding-right: 5px;
+    font-size: 14px;
+}
